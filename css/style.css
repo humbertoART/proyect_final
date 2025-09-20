@@ -3,11 +3,40 @@
     padding: 0;
 }
 
-header {
+.iconosh {
+    width: 30px;
+}
 
+.circulo {
+    width: 15px;
+}
+
+#lupa {
+    width: 30px;
+}
+
+#buscador {
+    height: 30px;
+    width: 300px;
 }
 
 #menu {
+    background-color: rgb(199, 171, 100);
+    height: 40px;
+}   
+
+#seccion2 {
+    background-image: url('../img/corteza.png');
+    background-size: cover;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+#lista1 {
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    align-items: center;
+    height: 40px;
+    color: white;
 }
