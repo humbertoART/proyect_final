@@ -251,6 +251,11 @@
     list-style: none;
 }
 
+.informacion .separacion3 a{
+    text-decoration: none;
+    color: white;
+}
+
 .tunel .subdivision {
     display: flex;
     margin-top: 20px;
