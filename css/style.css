@@ -13,23 +13,58 @@
 
 #lupa {
     width: 30px;
+    margin-right: 20px;
 }
 
 #buscador {
+    position: relative;
     height: 30px;
     width: 300px;
+    bottom: 7px;
 }
 
 #menu {
-    background-color: rgb(199, 171, 100);
+    background-color: #B69A76;
     height: 40px;
 }   
 
+#btn1 {
+    margin-right: 50px;
+}
+
+#caja1 {
+    position: relative;
+    left: 65%;
+    bottom: 20px;
+}
+
+#titulo {
+    color: #713014;
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    left: 40%;
+    top: 20px;
+}
+
 #seccion2 {
-    background-image: url('../img/corteza.png');
+    background-image: url('../img/Portada.jpg');
     background-size: cover;
     height: 300px;
     background-repeat: no-repeat;
+    text-align: center; 
+}
+
+#texto2 {
+    /* padding: 90px 0; */
+    padding-top: 110px;
+    color: white;
+}
+
+#texto3 {
+    color: white;
+    padding-top: 40px;
 }
 
 #lista1 {
@@ -39,4 +74,237 @@
     align-items: center;
     height: 40px;
     color: white;
+}
+
+.btn2 {
+    border: none;
+    background-color: white;
+}
+
+.btn2:hover {
+    cursor: pointer;
+}
+
+/* -------------------RECOMENDACIONES------------------- */
+
+.recomendaciones, .libros {
+    display: flex;  
+    margin-left: 10px;
+}
+
+.recomendacion, .libro {
+    padding: 26px 30px;
+    margin-left: 100px;
+    text-align: center;
+}
+
+.recomendacion .btn2 .ver {
+    background-color: #91170B;
+    color: white;
+    width: 90px;  
+    border-radius: 5px;  
+    margin-left: 79px;
+    margin-top: 12px;
+    padding: 6px;
+}
+
+.recomendacion h2, .recomendacion p {
+    margin-top: 12px;
+}
+
+.recomendacion .btn2 img {
+    height: 380px;
+    width: 250px;
+}
+
+.ver__harry, .ver__insoportable{
+    background-color: #91170B;
+    color: white;
+    width: 90px;  
+    border-radius: 5px;  
+    margin-left: 99px;
+    margin-top: 12px;
+    padding: 6px;
+}
+
+.ver__insoportable {
+    margin-left: 90px;
+}
+
+
+/* -------------------LIBROS------------------- */
+
+
+.libro h2, .libro p {
+    margin-top: 12px;
+}
+
+
+.libro .comprar {
+    background-color: #91170B;
+    color: white;
+    width: 90px;  
+    border-radius: 5px; 
+    margin-left: 10px;
+    margin-top: 12px;
+    padding: 6px;
+}
+
+.libro .precio {
+    color: #B99E7A;
+    font-weight: bold;
+}
+
+
+.libro .btn2 img {
+    height: 380px;
+    width: 250px;
+}
+
+/* -------------------CONOCENOS------------------- */
+
+.conocenos {
+    display: flex;
+    padding: 120px 0;
+}
+
+.txtconocer {
+    /* text-align: justify; */
+    padding: 90px;
+    padding-top: 15px;
+}
+
+.libreria {
+    height: 50%;
+    width: 50%;    
+}
+
+
+.txtconocenos {
+    font-size: 40px;
+    color: #9D331C;
+    margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+.importante {
+    text-align: center;
+    margin-top: 30px;
+    color: #a15447;
+    font-size: 20px;
+}
+
+.separacion1 {
+    margin-bottom: 20px;
+}
+
+.separacion2 {
+    margin-top: 20px;
+}
+
+.titulo2 {
+    color: #A6443C;
+    margin-top: 90px;
+    margin-left: 40px;
+}
+
+/* -------------------FOOTER (PIE DE PÁGINA)------------------- */
+
+#pie {
+    background-color: #B69A76;
+}
+
+.columnas {
+    display: flex;
+    padding: 19px;
+    justify-content: space-between;
+}
+
+.tunel, .informacion, .suscripcion {
+    color: white;
+}
+
+.tunel h3, .informacion h3, .suscripcion h3 {
+    padding-bottom: 12px;
+}
+
+.tunel .separacion3, .informacion .separacion3, .suscripcion .separacion3 {
+    padding-top: 17px;
+}
+
+.informacion {
+    margin-right: 10px;
+}
+
+.informacion hr {
+    width: 480px;
+}
+
+.informacion .separacion3 {
+    list-style: none;
+}
+
+.tunel .subdivision {
+    display: flex;
+    margin-top: 20px;
+}
+
+.tunel img {
+    height: 32px;
+    width: 29px;
+}
+
+.tunel .subdivision p {
+    margin-left: 20px;
+}
+
+.tunel .redes_sociales {
+    display: flex;
+    margin-left: 140px;
+    padding: 12px;
+}
+
+.tunel .redes_sociales img {
+    margin-left: 32px;
+}
+
+.tunel .redes_sociales .btnredes {
+    border: none;
+    background-color: #B69A76; 
+}
+
+.tunel .redes_sociales .btnredes:hover {
+    cursor: pointer;
+}
+
+.suscripcion .buscador_footer {
+    margin-top: 20px;
+}
+
+.suscripcion .buscador_footer .buscador {
+    width: 290px;
+    border: none;
+    height: 20px;
+}
+
+.suscripcion .buscador_footer .buscar {
+    border-radius: 2px;
+    border: none;
+    background-color: #99574A;
+    padding: 3px;
+    color: white;
+}
+
+.suscripcion .buscador_footer .buscar:hover {
+    cursor: pointer;
+}
+
+.derechos {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.derechos span {
+    font-weight: bold;
 }
