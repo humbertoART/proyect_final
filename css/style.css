@@ -232,6 +232,7 @@
 
 .tunel h3, .informacion h3, .suscripcion h3 {
     padding-bottom: 12px;
+    font-family: sans-serif;
 }
 
 .tunel .separacion3, .informacion .separacion3, .suscripcion .separacion3 {
